@@ -2039,15 +2039,35 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Preselector Bands:\n2 - 4 (1.8 - 4.2)\n4 - 8 (3.8 - 8.2)\n8 - 16 (7.8 - 16.2)\n16 - 32 (15.8 - 32.2)\n\n32 - 64 (31.5 - 64.5)\n64 - 110 (63.5 - 110.5)\n110 - 170 (109 - 170.5)"
+	(text "Preselector Bands:\nHF\n2 - 4 (1.8 - 4.2)\n4 - 8 (3.8 - 8.2)\n8 - 16 (7.8 - 16.2)\n16 - 32 (15.8 - 32.2)\nVHF\n32 - 64 (31.5 - 64.5)\n64 - 110 (63.5 - 110.5)\n110 - 170 (109 - 170.5)"
 		(exclude_from_sim no)
-		(at -24.638 29.464 0)
+		(at -54.61 11.938 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 		(uuid "2bf603fa-d824-45ea-a02e-b356cd07dcd1")
+	)
+	(text "checked for image rejection\n------->"
+		(exclude_from_sim no)
+		(at -84.328 11.684 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "709cdc6a-8bf3-4d21-ac79-610011dbd1ca")
+	)
+	(text "1st IF:\n\nHF: 10.7 MHz\nVHF 45 MHz\n"
+		(exclude_from_sim no)
+		(at -22.86 5.588 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b7106b31-5820-4155-9c83-d568e755b403")
 	)
 	(text "HF"
 		(exclude_from_sim no)
