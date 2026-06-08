@@ -5615,7 +5615,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_BJT:Q_NPN_BCE")
-		(at 199.39 123.19 0)
+		(at 229.87 104.14 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5626,7 +5626,7 @@
 		(fields_autoplaced yes)
 		(uuid "216d5e12-15fe-44b7-9ab6-60422f092ce7")
 		(property "Reference" "Q1"
-			(at 204.47 121.9199 0)
+			(at 234.95 102.8699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5637,7 +5637,7 @@
 			)
 		)
 		(property "Value" "2N5179"
-			(at 204.47 124.4599 0)
+			(at 234.95 105.4099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5648,7 +5648,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 204.47 120.65 0)
+			(at 234.95 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5659,7 +5659,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 199.39 123.19 0)
+			(at 229.87 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5670,7 +5670,7 @@
 			)
 		)
 		(property "Description" "NPN transistor, base/collector/emitter"
-			(at 199.39 123.19 0)
+			(at 229.87 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5681,7 +5681,7 @@
 			)
 		)
 		(property "Sim.Device" "NPN"
-			(at 199.39 123.19 0)
+			(at 229.87 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5692,7 +5692,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=B 2=C 3=E"
-			(at 199.39 123.19 0)
+			(at 229.87 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
