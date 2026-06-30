@@ -217,7 +217,6 @@
       "footprint_filter": "ignore",
       "footprint_link_issues": "warning",
       "four_way_junction": "ignore",
-      "global_label_dangling": "warning",
       "ground_pin_not_ground": "warning",
       "hier_label_mismatch": "error",
       "isolated_pin_label": "warning",
@@ -257,7 +256,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "profielWerkstuk.kicad_pro",
+    "filename": "AMreceiver.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -291,14 +290,10 @@
   },
   "pcbnew": {
     "last_paths": {
-      "gencad": "",
       "idf": "",
       "netlist": "",
       "plot": "",
-      "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
-      "svg": "",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -378,7 +373,7 @@
       "include_excluded_from_bom": true,
       "name": "Default Editing",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "Referentie"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,
@@ -409,41 +404,25 @@
     "meta": {
       "version": 1
     },
-    "net_format_name": "",
-    "ngspice": {
-      "fix_include_paths": true,
-      "meta": {
-        "version": 0
-      },
-      "model_mode": 4,
-      "workbook_filename": ""
-    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "reuse_designators": true,
-    "space_save_all_events": true,
-    "spice_current_sheet_as_root": false,
-    "spice_external_command": "spice \"%I\"",
-    "spice_model_current_sheet_as_root": true,
-    "spice_save_all_currents": false,
-    "spice_save_all_dissipations": false,
-    "spice_save_all_voltages": false,
     "subpart_first_id": 65,
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "profielWerkstuk.kicad_sch",
-        "name": "Root",
-        "uuid": "2ff6a573-99b7-4d75-b82d-04e5d220b6e6"
+        "filename": "AMreceiver.kicad_sch",
+        "name": "AMreceiver",
+        "uuid": "2d73e8d6-0c6b-473f-af5c-c1c0f5de5385"
       }
     ],
-    "used_designators": "",
+    "used_designators": "L1-5,#PWR1,D1-2,AE1,R1-3,SW1,C1-5",
     "variants": []
   },
   "sheets": [
     [
-      "2ff6a573-99b7-4d75-b82d-04e5d220b6e6",
-      "Root"
+      "2d73e8d6-0c6b-473f-af5c-c1c0f5de5385",
+      "AMreceiver"
     ]
   ],
   "text_variables": {},
