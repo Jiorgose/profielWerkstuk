@@ -973,6 +973,249 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Transistor_BJT:2N3904"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "2N3904"
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+				(at 5.08 -1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+				)
+			)
+			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Device" "NPN"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=E 2=B 3=C"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "NPN Transistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "TO?92*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "2N3904_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 0.635 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "2N3904_1_1"
+				(polyline
+					(pts
+						(xy 0.635 0.635) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -0.635) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GNDREF"
 			(power global)
 			(pin_numbers
@@ -1126,16 +1369,16 @@
 		)
 	)
 	(junction
-		(at 113.03 53.34)
+		(at 87.63 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "071e0e99-c53a-43a1-9b24-8096911fb77a")
+		(uuid "1d3f653b-bd96-4694-81fc-989dfb13b4dd")
 	)
 	(junction
-		(at 113.03 60.96)
+		(at 111.76 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3e5650a4-0deb-402e-a120-bfd72aa177d3")
+		(uuid "639c6856-c10f-4210-949f-bdf006c629c6")
 	)
 	(junction
 		(at 87.63 53.34)
@@ -1156,10 +1399,16 @@
 		(uuid "97e63628-4abd-4b77-95c8-b3d74eaa6985")
 	)
 	(junction
-		(at 113.03 50.8)
+		(at 111.76 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a1248bd6-5ee3-42fd-9676-e7dac74023df")
+		(uuid "98bd10a2-f7a3-4963-8bea-87fdf610ae11")
+	)
+	(junction
+		(at 111.76 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aabba0ed-5b63-4cad-bfdc-e8a0ca460da2")
 	)
 	(junction
 		(at 87.63 50.8)
@@ -1180,12 +1429,6 @@
 		(uuid "c5e90edd-64a9-47d5-99ad-170ee4da155c")
 	)
 	(junction
-		(at 87.63 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cc0e13ad-1f5d-440a-9f3f-d8dda30f3f5c")
-	)
-	(junction
 		(at 46.99 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1199,6 +1442,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 50.8) (xy 125.73 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0555a6b0-ab43-4e1f-aa3b-5ae42e6e9f8c")
+	)
+	(wire
+		(pts
 			(xy 87.63 50.8) (xy 87.63 53.34)
 		)
 		(stroke
@@ -1209,7 +1462,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 63.5) (xy 113.03 63.5)
+			(xy 87.63 63.5) (xy 111.76 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1219,23 +1472,13 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 50.8) (xy 113.03 53.34)
+			(xy 111.76 50.8) (xy 111.76 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "1ae5a75a-b3ba-4502-89f3-0b493d2656e0")
-	)
-	(wire
-		(pts
-			(xy 113.03 53.34) (xy 116.84 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "278f4f7a-0952-477e-b7c1-82ccfab9ec8b")
 	)
 	(wire
 		(pts
@@ -1269,16 +1512,6 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 50.8) (xy 125.73 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4cc45dce-d032-41a0-8761-ce7074c0de51")
-	)
-	(wire
-		(pts
 			(xy 46.99 58.42) (xy 59.69 58.42)
 		)
 		(stroke
@@ -1299,7 +1532,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 50.8) (xy 113.03 50.8)
+			(xy 104.14 50.8) (xy 111.76 50.8)
 		)
 		(stroke
 			(width 0)
@@ -1316,6 +1549,16 @@
 			(type default)
 		)
 		(uuid "6cf1e396-0567-43d3-87f7-f0e744a42a87")
+	)
+	(wire
+		(pts
+			(xy 111.76 53.34) (xy 115.57 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6dbc7fb8-66dd-4c8c-81d9-f40dd78bdd4c")
 	)
 	(wire
 		(pts
@@ -1349,7 +1592,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 60.96) (xy 113.03 63.5)
+			(xy 111.76 60.96) (xy 111.76 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1359,7 +1602,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 60.96) (xy 113.03 60.96)
+			(xy 109.22 60.96) (xy 111.76 60.96)
 		)
 		(stroke
 			(width 0)
@@ -1379,7 +1622,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 53.34) (xy 113.03 53.34)
+			(xy 109.22 53.34) (xy 111.76 53.34)
 		)
 		(stroke
 			(width 0)
@@ -1399,7 +1642,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 60.96) (xy 116.84 60.96)
+			(xy 111.76 60.96) (xy 115.57 60.96)
 		)
 		(stroke
 			(width 0)
@@ -2127,8 +2370,118 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_BJT:2N3904")
+		(at 123.19 102.87 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9b085895-d07f-446b-b633-27cd4ec74b08")
+		(property "Reference" "Q1"
+			(at 128.27 101.5999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2N3904"
+			(at 128.27 104.1399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 128.27 104.775 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF"
+			(at 123.19 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
+			(at 123.19 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "NPN"
+			(at 123.19 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=E 2=B 3=C"
+			(at 123.19 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "5e48e5ba-f4bb-4b86-84df-cacfc720fda6")
+		)
+		(pin "3"
+			(uuid "1b1ce9e7-e7c9-4212-b794-ff10e1eefaac")
+		)
+		(pin "1"
+			(uuid "073dbd34-167a-457f-85bc-da9a224ce557")
+		)
+		(instances
+			(project "AM-Receiver"
+				(path "/8ed7e543-7d50-486c-b61b-ae9d489b8386"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:L")
-		(at 116.84 57.15 0)
+		(at 115.57 57.15 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2139,7 +2492,7 @@
 		(fields_autoplaced yes)
 		(uuid "a0f1d908-0fbb-4a6f-86ce-5fdf1f667f87")
 		(property "Reference" "L2"
-			(at 118.11 55.8799 0)
+			(at 116.84 55.8799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2150,7 +2503,7 @@
 			)
 		)
 		(property "Value" "80u"
-			(at 118.11 58.4199 0)
+			(at 116.84 58.4199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2161,7 +2514,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 116.84 57.15 0)
+			(at 115.57 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2172,7 +2525,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.84 57.15 0)
+			(at 115.57 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2183,7 +2536,7 @@
 			)
 		)
 		(property "Description" "Inductor"
-			(at 116.84 57.15 0)
+			(at 115.57 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2288,7 +2641,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Variable")
-		(at 110.49 57.15 0)
+		(at 109.22 57.15 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2298,7 +2651,7 @@
 		(dnp no)
 		(uuid "f5e274f6-4ba1-44e2-bb71-d4b4e24fc363")
 		(property "Reference" "C3"
-			(at 105.41 56.134 0)
+			(at 104.14 56.134 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2309,7 +2662,7 @@
 			)
 		)
 		(property "Value" "60p-140p"
-			(at 98.806 58.928 0)
+			(at 97.536 58.928 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2320,7 +2673,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 110.49 57.15 0)
+			(at 109.22 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2331,7 +2684,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 110.49 57.15 0)
+			(at 109.22 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2342,7 +2695,7 @@
 			)
 		)
 		(property "Description" "Variable capacitor"
-			(at 110.49 57.15 0)
+			(at 109.22 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
